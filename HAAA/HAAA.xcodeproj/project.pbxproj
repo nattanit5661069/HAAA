@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8456C23B1A584F7A00997C19 /* HAAA-first page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8456C23A1A584F7A00997C19 /* HAAA-first page.jpg */; };
+		8456C23C1A584F7A00997C19 /* HAAA-first page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8456C23A1A584F7A00997C19 /* HAAA-first page.jpg */; };
+		8456C23D1A5853AF00997C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845823901A542E76001A9889 /* Main.storyboard */; };
+		8456C23F1A585B7900997C19 /* Medicine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8456C23E1A585B7900997C19 /* Medicine.jpg */; };
+		8456C2401A585B7900997C19 /* Medicine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8456C23E1A585B7900997C19 /* Medicine.jpg */; };
+		8456C2421A585D4D00997C19 /* Light-Wood-Background-Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8456C2411A585D4D00997C19 /* Light-Wood-Background-Wallpaper.jpg */; };
+		8456C2431A585D4D00997C19 /* Light-Wood-Background-Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8456C2411A585D4D00997C19 /* Light-Wood-Background-Wallpaper.jpg */; };
 		8458238D1A542E76001A9889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458238C1A542E76001A9889 /* AppDelegate.swift */; };
 		8458238F1A542E76001A9889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458238E1A542E76001A9889 /* ViewController.swift */; };
 		845823921A542E76001A9889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845823901A542E76001A9889 /* Main.storyboard */; };
@@ -26,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8456C23A1A584F7A00997C19 /* HAAA-first page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "HAAA-first page.jpg"; sourceTree = SOURCE_ROOT; };
+		8456C23E1A585B7900997C19 /* Medicine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Medicine.jpg; sourceTree = SOURCE_ROOT; };
+		8456C2411A585D4D00997C19 /* Light-Wood-Background-Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light-Wood-Background-Wallpaper.jpg"; sourceTree = SOURCE_ROOT; };
 		845823871A542E76001A9889 /* HAAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HAAA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8458238B1A542E76001A9889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8458238C1A542E76001A9889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +100,7 @@
 		8458238A1A542E76001A9889 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8456C23A1A584F7A00997C19 /* HAAA-first page.jpg */,
 				8458238B1A542E76001A9889 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +118,8 @@
 		845823A01A542E76001A9889 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8456C2411A585D4D00997C19 /* Light-Wood-Background-Wallpaper.jpg */,
+				8456C23E1A585B7900997C19 /* Medicine.jpg */,
 				845823A11A542E76001A9889 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +205,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8456C2421A585D4D00997C19 /* Light-Wood-Background-Wallpaper.jpg in Resources */,
 				845823921A542E76001A9889 /* Main.storyboard in Resources */,
 				845823971A542E76001A9889 /* LaunchScreen.xib in Resources */,
 				845823941A542E76001A9889 /* Images.xcassets in Resources */,
+				8456C23F1A585B7900997C19 /* Medicine.jpg in Resources */,
+				8456C23B1A584F7A00997C19 /* HAAA-first page.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +218,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8456C23C1A584F7A00997C19 /* HAAA-first page.jpg in Resources */,
+				8456C23D1A5853AF00997C19 /* Main.storyboard in Resources */,
+				8456C2431A585D4D00997C19 /* Light-Wood-Background-Wallpaper.jpg in Resources */,
+				8456C2401A585B7900997C19 /* Medicine.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +425,7 @@
 				845823A81A542E76001A9889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845823A91A542E76001A9889 /* Build configuration list for PBXNativeTarget "HAAATests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +434,7 @@
 				845823AB1A542E76001A9889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
